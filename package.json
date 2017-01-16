@@ -1,0 +1,16 @@
+{
+  "name": "webp-unity3d",
+  "version": "0.0.1",
+  "description": "Unity3D version of webp",
+  "main": "index.js",
+  "author": "Ha.Minh",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node index.js",
+    "unity": "rm -fr node_modules && DIR=`pwd` yarn install --flat --prod"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0"
+  }
+}
