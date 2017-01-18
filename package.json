@@ -1,6 +1,6 @@
 {
   "name": "webp-unity3d",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Unity3D version of webp",
   "main": "index.js",
   "author": "Ha.Minh",
@@ -10,7 +10,8 @@
     "unity": "rm -fr node_modules && DIR=`pwd` yarn install --flat --prod"
   },
   "dependencies": {
-    "mkdirp": "^0.5.1",
-    "ncp": "^2.0.0"
+    "minimist": "ssh://github.com/substack/minimist.git#0.0.8",
+    "mkdirp": "ssh://github.com/substack/node-mkdirp.git#0.5.1",
+    "ncp": "ssh://github.com/AvianFlu/ncp.git#v2.0.0"
   }
 }
